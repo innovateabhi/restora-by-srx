@@ -1,15 +1,10 @@
 import { useState, type ReactNode, type ChangeEvent, type FormEvent } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import {
-  ArrowDownRight,
   ArrowRight,
   ArrowUp,
   ArrowUpRight,
-  CalendarDays,
-  Package,
-  Smartphone,
   BarChart3,
-  Bell,
   Check,
   ChefHat,
   ChevronDown,
@@ -26,7 +21,6 @@ import {
   Plus,
   QrCode,
   ReceiptText,
-  ShieldCheck,
   ShoppingBag,
   Sparkles,
   Table2,
@@ -40,10 +34,6 @@ import {
 
 type DemoTab = "POS Billing" | "Floor Plan" | "QR Ordering" | "Kitchen" | "Insights";
 
-const olive = "#758052";
-const terracotta = "#BD674D";
-const ivory = "#F8F5ED";
-const charcoal = "#34382B";
 
 const menuItems = [
   { id: 1, name: "Classic Cappuccino", category: "Coffee", price: 160, icon: "☕" },
